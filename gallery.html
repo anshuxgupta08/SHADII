@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery | Wedding</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="config.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html" data-couple>A & A</a>        <nav class="nav"><a href="index.html" data-i18n="navHome">Home</a><a href="story.html" data-i18n="navStory">Our
+                Story</a><a href="events.html" data-i18n="navEvents">Events</a><a class="active" href="gallery.html"
+                data-i18n="navGallery">Gallery</a></nav>
+        <div class="header-actions"><button id="languageToggle" class="text-button">हिंदी</button><button
+                id="musicToggle" class="music-button">♫ <span data-i18n="music">Music</span></button></div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow" data-i18n="galleryEyebrow">LITTLE GLIMPSES OF OUR JOURNEY</p>
+            <h1 data-i18n="galleryTitle">Our Gallery</h1>
+            <p data-i18n="gallerySub">A collection of moments close to our hearts.</p>
+        </section>
+        <section class="gallery-grid section" id="galleryGrid"></section>
+    </main>
+    <footer class="footer">
+        <p class="footer-names" data-couple>A & A</p>
+        <p data-i18n="footer">Made with love. We can't wait to celebrate with you.</p>
+    </footer>
+    <div class="lightbox" id="lightbox"><button id="closeLightbox" aria-label="Close">×</button><img id="lightboxImage"
+            alt="Gallery photograph"></div><audio id="weddingAudio" loop></audio>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wedding Events | Wedding</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="config.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html" data-couple>A & A</a>        <nav class="nav"><a href="index.html" data-i18n="navHome">Home</a><a href="story.html" data-i18n="navStory">Our
+                Story</a><a class="active" href="events.html" data-i18n="navEvents">Events</a><a href="gallery.html"
+                data-i18n="navGallery">Gallery</a></nav>
+        <div class="header-actions"><button id="languageToggle" class="text-button">हिंदी</button><button
+                id="musicToggle" class="music-button">♫ <span data-i18n="music">Music</span></button></div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow" data-i18n="eventsEyebrow">JOYFUL MOMENTS, BEAUTIFUL MEMORIES</p>
+            <h1 data-i18n="eventsTitle">Wedding Events</h1>
+            <p data-i18n="eventsSub">A few days of celebration, a lifetime of memories.</p>
+        </section>
+        <section class="events-grid section" id="eventsGrid"></section>
+        <section class="venue-section section">
+            <p class="eyebrow" data-i18n="locationEyebrow">SAVE THE LOCATION</p>
+            <h2 data-i18n="locationTitle">Celebrate with us</h2>
+            <p id="venueAddress">N.H. 31, Near LIC Office, Bodia, Maranga, Purnea, Bihar</p><a class="button button-outline"
+                id="mapLink" href="#" target="_blank" rel="noopener" data-i18n="directions">Get directions ↗</a>
+        </section>
+        <section class="travel-card section">
+            <p class="eyebrow">GUEST TRANSPORT</p>
+            <h2>Vehicle Arrangement</h2>
+            <p><strong id="vehicleWhen">23 November 2026 · 6:00 AM</strong></p>
+            <p id="vehicleText">A vehicle will depart from our residence at Ballia for guests travelling to the wedding venue in Purnea.</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-names" data-couple>A & A</p>
+        <p data-i18n="footer">Made with love. We can't wait to celebrate with you.</p>
+    </footer><audio id="weddingAudio" loop></audio>
+</body>
+
+</html>

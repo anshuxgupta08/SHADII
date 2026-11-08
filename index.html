@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3ed">
+  <meta name="description" content="A celebration of love. Join us for the wedding celebration.">
+  <title>Suman & Deepak | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="site-header"><a class="brand" href="index.html" data-couple>A & A</a>    <nav class="nav"><a class="active" href="index.html" data-i18n="navHome">Home</a><a href="story.html"
+        data-i18n="navStory">Our Story</a><a href="events.html" data-i18n="navEvents">Events</a><a href="gallery.html"
+        data-i18n="navGallery">Gallery</a></nav>
+    <div class="header-actions"><button id="languageToggle" class="text-button"
+        aria-label="Change language">हिंदी</button><button id="musicToggle" class="music-button"
+        aria-label="Toggle music">♫ <span data-i18n="music">Music</span></button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true"><span class="sun sun-one"></span><span class="sun sun-two"></span><span
+          class="leaf leaf-one">✿</span><span class="leaf leaf-two">❀</span></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="inviteLine">WITH THE BLESSINGS OF OUR FAMILIES</p>
+        <p class="small-script" data-i18n="inviteYou">We joyfully invite you to celebrate the wedding of</p>
+        <h1><span id="brideName">Suman</span><i>&</i><span id="groomName">Deepak</span></h1>
+        <div class="ornament">✦ ───── ❀ ───── ✦</div>
+        <div class="family-lines">
+          <p id="brideParents">Daughter of Mrs. Madhu Devi & Mr. Ram Uday Sah</p><span>✦</span>
+          <p id="groomParents">Son of Late Shobha Devi & Mr. Surendra Prasad Sah</p>
+        </div>
+        <p class="date-line" id="weddingDateLabel">Tuesday, 24 November 2026 · 10:00 PM</p>
+        <p class="venue-line" id="venueLabel">The Grand 13 Resort · Purnea, Bihar</p>
+        <a class="button button-dark" href="events.html" data-i18n="explore">Explore the celebration</a>
+      </div>
+      <a class="scroll-cue" href="#countdown" data-i18n="scroll">SCROLL TO DISCOVER ↓</a>
+    </section>
+    <section class="countdown-section section" id="countdown">
+      <p class="eyebrow" data-i18n="countdownEyebrow">THE DAY WE BEGIN FOREVER</p>
+      <h2 data-i18n="countdownTitle">Counting every moment</h2>
+      <div class="countdown" aria-live="polite">
+        <div><strong id="days">--</strong><span data-i18n="days">Days</span></div>
+        <div><strong id="hours">--</strong><span data-i18n="hours">Hours</span></div>
+        <div><strong id="minutes">--</strong><span data-i18n="minutes">Minutes</span></div>
+        <div><strong id="seconds">--</strong><span data-i18n="seconds">Seconds</span></div>
+      </div>
+    </section>
+    <section class="split-section section">
+      <div class="split-image image-one" role="img" aria-label="Wedding floral arrangement"></div>
+      <div class="split-copy">
+        <p class="eyebrow" data-i18n="together">TWO HEARTS, ONE BEAUTIFUL JOURNEY</p>
+        <h2 data-i18n="welcomeTitle">A day made more special with you.</h2>
+        <p data-i18n="welcomeText">Some moments become memories because the people we love are there. Your presence and
+          blessings will make our celebration truly complete.</p><a class="under-link" href="story.html"
+          data-i18n="readStory">Get to know our story ↗</a>
+      </div>
+    </section>
+    <section class="venue-section section">
+      <p class="eyebrow" data-i18n="locationEyebrow">SAVE THE LOCATION</p>
+      <h2 data-i18n="locationTitle">Celebrate with us</h2>
+      <p id="venueAddress">N.H. 31, Near LIC Office, Bodia, Maranga, Purnea, Bihar</p><a class="button button-outline"
+        id="mapLink" href="https://www.google.com/maps/search/?api=1&query=The+Grand+13+Resort+Bodia+Maranga+Purnea" target="_blank" rel="noopener"
+        data-i18n="directions">Get directions ↗</a>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer-names" data-couple>A & A</p>
+    <p data-i18n="footer">Made with love. We can't wait to celebrate with you.</p><small>© <span id="year"></span> <span
+        data-couple>A & A</span></small>
+  </footer>
+  <audio id="weddingAudio" loop preload="none"></audio>
+</body>
+
+</html>
